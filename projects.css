@@ -1,0 +1,188 @@
+/* projects css */
+.projects-grid{
+  display: grid;
+  grid-template-columns: 1fr; /* Card واحدة بس */
+  gap: 30px;
+}
+
+
+.project-card{
+  position:relative;
+  cursor:pointer;
+  overflow:hidden;
+}
+
+.project-card img{
+  width:100%;
+  height:500px;
+  object-fit:cover;
+}
+
+
+
+
+
+
+
+
+
+.overlay{
+  position:absolute;
+  inset:0;
+  background:linear-gradient(to top, rgba(0,0,0,.8), transparent);
+  display:flex;
+  align-items:flex-end;
+  padding:15px;
+}
+
+.overlay h3{
+  color:white;
+  margin:0;
+}
+
+
+@media(max-width:576px){
+  .projects-grid{grid-template-columns:1fr;}
+}
+
+
+.page-content{
+  padding-top: 110px;
+}
+
+@media (max-width: 991px){
+  .page-content{
+    padding-top: 130px;
+  }
+}
+
+
+
+
+
+
+
+
+/* ================== NAVBAR (SAME AS CONTACT) ================== */
+:root{
+  --font-robote: "Poppins", sans-serif;
+  --font-mon: "Montserrat", sans-serif;
+}
+
+.navbar{
+  background-color: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.navbar-brand{
+  font-family: var(--font-mon);
+  font-size: 20px;
+  font-weight: 800;
+  color: black;
+}
+
+.navbar-nav .nav-link{
+  position: relative;
+  display: inline-block;
+  font-family: var(--font-robote);
+  font-size: 14px;
+  font-weight: 400;
+  color: black !important;
+  padding: 5px 0;
+}
+
+/* underline */
+.navbar-nav .nav-link::before{
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  transition: width 0.4s ease;
+}
+
+.navbar-nav .nav-link:hover::before,
+.navbar-nav .nav-link.active::before{
+  width: 100%;
+}
+
+
+
+.navbar-brand{
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+/* logo image */
+.navbar-logo{
+  height: 45px;        /* أهم سطر */
+  width: auto;
+  object-fit: contain;
+}
+@media (max-width: 991px){
+  .navbar-logo{
+    height: 38px;
+  }
+}
+
+
+
+
+
+
+
+#projectTitle{
+  font-family: var(--font-mon);
+  font-weight: 800;
+  margin: 20px 0;
+}
+
+
+/* ===== Project Title ===== */
+.project-header{
+  text-align: center;
+  margin: 40px 0 60px;
+  animation: titleFadeUp 0.8s ease forwards;
+}
+
+#projectTitle{
+  font-family: var(--font-mon);
+  font-size: 38px;
+  font-weight: 800;
+  color: #1f2a44;          /* كحلي أنيق */
+  position: relative;
+  display: inline-block;
+  padding-bottom: 14px;
+  
+}
+
+/* الخط اللي تحت العنوان */
+#projectTitle::after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 4px;
+  background-color: rgb(146, 179, 240); /* أصفر هادي (brand accent) */
+  border-radius: 4px;
+}
+
+
+
+/* أنيميشن خفيفة */
+@keyframes titleFadeUp{
+  from{
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

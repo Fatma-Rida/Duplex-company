@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contact</title>
+
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <link rel="stylesheet" href="./contact.css">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top pt-4" id="navbar-example">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">
+  <img src="./logo.jpeg" alt="Company Logo" class="navbar-logo">
+</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse text-center navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./services.html">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./projects..html">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ✅ MAIN WRAPPER (حل مشكلة content تحت navbar) -->
+  <main class="page-content">
+    <div class="content" id="content">
+      <div class="container">
+
+        <div class="map">
+          <!-- ✅ Google Map -->
+        <iframe
+  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d608.5267533799147!2d30.493230931651816!3d30.36949876145842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDIyJzEwLjEiTiAzMMKwMjknMzYuMCJF!5e0!3m2!1sen!2seg!4v1710000000000!5m2!1sen!2seg"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+        </div>
+
+        <div class="details">
+          <div class="methed one">
+            <div class="left">
+              <a href="#"><i class="fa-regular fa-map"></i></a>
+            </div>
+            <div class="right">
+              <h4>Our Address</h4>
+              <p>Egypt, El Sadat City</p>
+            </div>
+          </div>
+
+          <div class="methed two">
+            <div class="left">
+              <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <div class="right">
+              <h4>Email Us</h4>
+              <p>Business@Bunyan.com</p>
+            </div>
+          </div>
+
+          <div class="methed three">
+            <div class="left">
+              <a href="#"><i class="fa-solid fa-phone"></i></a>
+            </div>
+            <div class="right">
+              <h4>Call Us</h4>
+              <p>0482441115 , 01278930940</p>
+            </div>
+          </div>
+
+          <div class="methed four">
+            <div class="left">
+              <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+            </div>
+            <div class="right">
+              <h4>Opening Hours</h4>
+              <p><span>Sat-Thu:</span> 9AM - 6PM; <span>Fri</span> Closed</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!--footer-->
+  <footer class="end">
+    <p class="text-center py-5 m-0">Copy Right 2018 © By Daniels All Rights Reserved</p>
+  </footer>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
