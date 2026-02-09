@@ -30,7 +30,72 @@ const projectsData = {
       "./projects/SOI/5.jpeg"
     ]
   }
+
+  ,
+
+  "Administrative Building": {
+    title: "Administrative Building (Contributor)",
+    images: [
+      "./projects/Administrative Building/proo_page1.png",
+     
+    ]
+  }
+
+  ,
+
+  "Americana Group Factory": {
+    title: "Americana Group Factory (Contributor)",
+    images: [
+      "./projects/Americana Group Factory/proo_page7.png",
+     
+    ]
+  }
+
+  ,
+
+  "EL-Majd Oil Factory": {
+    title: "EL-Majd Oil Factory (Contributor)",
+    images: [
+      "./projects/EL-Majd Oil Factory/proo_page6.png",
+     
+    ]
+  }
+
+   ,
+
+  "IPI Factory": {
+    title: "IPI Factory (Contributor)",
+    images: [
+      "./projects/IPI Factory/proo_page5.png",
+     
+    ]
+  }
+
+    ,
+
+  "Royels Food Factory": {
+    title: "Royels Food Factory (Contributor)",
+    images: [
+      "./projects/Royels Food Factory/proo_page2.png",
+     
+    ]
+  }
+
+    ,
+
+  "Sanita Factory": {
+    title: "Sanita Factory (Contributor)",
+    images: [
+      "./projects/Sanita Factory/proo_page3.png",
+     
+    ]
+  }
 };
+
+
+
+
+
 
 // ===== Get project id from URL =====
 const params = new URLSearchParams(window.location.search);

@@ -88,40 +88,40 @@ a{
 }
 @keyframes header-animation {
 
-  /* Duplex */
+  /* Duplix */
   0%   { content: "|"; }
   4%   { content: "D|"; }
   8%   { content: "Du|"; }
   12%  { content: "Dup|"; }
   16%  { content: "Dupl|"; }
-  20%  { content: "Duplex|"; }
+  20%  { content: "Duplix|"; }
 
   /* Construction */
-  26%  { content: "Duplex C|"; }
-  30%  { content: "Duplex Co|"; }
-  34%  { content: "Duplex Con|"; }
-  38%  { content: "Duplex Cons|"; }
-  42%  { content: "Duplex Constr|"; }
-  46%  { content: "Duplex Constru|"; }
-  50%  { content: "Duplex Construct|"; }
-  54%  { content: "Duplex Constructi|"; }
-  58%  { content: "Duplex Construction|"; }
+  26%  { content: "Duplix C|"; }
+  30%  { content: "Duplix Co|"; }
+  34%  { content: "Duplix Con|"; }
+  38%  { content: "Duplix Cons|"; }
+  42%  { content: "Duplix Constr|"; }
+  46%  { content: "Duplix Constru|"; }
+  50%  { content: "Duplix Construct|"; }
+  54%  { content: "Duplix Constructi|"; }
+  58%  { content: "Duplix Construction|"; }
 
   /* & Development */
-  62%  { content: "Duplex Construction &|"; }
-  66%  { content: "Duplex Construction & D|"; }
-  70%  { content: "Duplex Construction & De|"; }
-  74%  { content: "Duplex Construction & Dev|"; }
-  78%  { content: "Duplex Construction & Devel|"; }
-  82%  { content: "Duplex Construction & Develop|"; }
-  86%  { content: "Duplex Construction & Developme|"; }
-  90%  { content: "Duplex Construction & Development|"; }
+  62%  { content: "Duplix Construction &|"; }
+  66%  { content: "Duplix Construction & D|"; }
+  70%  { content: "Duplix Construction & De|"; }
+  74%  { content: "Duplix Construction & Dev|"; }
+  78%  { content: "Duplix Construction & Devel|"; }
+  82%  { content: "Duplix Construction & Develop|"; }
+  86%  { content: "Duplix Construction & Developme|"; }
+  90%  { content: "Duplix Construction & Development|"; }
 
   /* Pause */
-  94%  { content: "Duplex Construction & Development|"; }
+  94%  { content: "Duplix Construction & Development|"; }
 
   /* Delete smoothly */
-  97%  { content: "Duplex|"; }
+  97%  { content: "Duplix|"; }
   100% { content: "|"; }
 }
 
