@@ -1,17 +1,17 @@
 const projects = [
   {
     id: "intercity-mall",
-    title: "Intercity Mall",
+    title: "Intercity Mall (Contributor)",
     cover: "./projects/intercity-mall/1.jpg.jpeg"
   },
   {
     id: "school-nahr-al-riyadh-soi-mall",
-    title: "School Nahr Al Riyadh ",
+    title: "School Nahr Al Riyadh (Contributor) ",
     cover: "./projects/school Nahr Al Riyadh & SOI Mall/1.jpeg"
   },
    {
     id: "SOI",
-    title: "SOI Mall",
+    title: "SOI Mall (Contributor)",
     cover: "./projects/SOI/1.jpeg"
   },
   {

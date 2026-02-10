@@ -1,6 +1,6 @@
 const projectsData = {
   "intercity-mall": {
-    title: "Intercity Mall",
+    title: "Intercity Mall (Contributor)",
     images: [
       "./projects/intercity-mall/1.jpg.jpeg",
       "./projects/intercity-mall/2.jpg.jpeg",
@@ -10,7 +10,7 @@ const projectsData = {
   },
 
   "school-nahr-al-riyadh-soi-mall": {
-    title: "School Nahr Al Riyadh & SOI Mall",
+    title: "School Nahr Al Riyadh & SOI Mall (Contributor)",
     images: [
       "./projects/school Nahr Al Riyadh & SOI Mall/1.jpeg",
       "./projects/school Nahr Al Riyadh & SOI Mall/2.jpeg",
@@ -21,7 +21,7 @@ const projectsData = {
   },
 
   "SOI": {
-    title: "SOI Mall",
+    title: "SOI Mall (Contributor)",
     images: [
       "./projects/SOI/1.jpeg",
       "./projects/SOI/2.jpeg",
